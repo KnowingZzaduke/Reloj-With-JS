@@ -4,12 +4,24 @@ html{
     padding: 0%;
     margin: 0%;
     display: block;
+    height: 100vh;
 }
 
 body{
     height: 100%;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhtmlcolorcodes.com%2Fes%2Ftutoriales%2Fcss-color-de-fondo%2F&psig=AOvVaw2Ll5fzi3GRl2e5SfJ8Uu0C&ust=1673656019745000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOiJ-9Wkw_wCFQAAAAAdAAAAABAI);
-    background-repeat: none;
-    background-size: cover;
+    background: rgb(36,36,73);
+    background: linear-gradient(90deg, rgba(36,36,73,1) 0%, rgba(28,181,0,1) 100%);
     font-family: 'Chivo Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: v.$blanco;
+}
+
+div{
+    color: v.$blanco;
+    font-size: 3rem;
 }
