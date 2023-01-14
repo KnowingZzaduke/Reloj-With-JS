@@ -15,7 +15,7 @@ function starTime(){
     
     
     function checkTime(i){
-        if(i > 10){
+        if(i > 60){
             i = 0 + i;
         }else{
             return i;
@@ -24,11 +24,10 @@ function starTime(){
 
 let months = ["Enero", "Febrero", "Marzo", "Abrirl", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 let days = ["Lunes", "Martes", "Míercoles", "Jueves", "Viernes"];
-let curWeekDay = days[today.getDay()];
 let curDay = today.getDate();
 let curMouth = months[today.getMonth()];
 let curYear = today.getFullYear();
-let date = curWeekDay + ", " + curDay + ", " + curMouth + ", " + curYear + ", ";
+let date = curDay + ", " + curMouth + ", " + curYear + ", ";
 let mostrarFecha = document.querySelector('.date');
 mostrarFecha.innerHTML = date;
 }
