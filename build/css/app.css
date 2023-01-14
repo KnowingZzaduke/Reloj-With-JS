@@ -3,12 +3,42 @@ html {
   padding: 0%;
   margin: 0%;
   display: block;
+  height: 100vh;
 }
 
 body {
   height: 100%;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fhtmlcolorcodes.com%2Fes%2Ftutoriales%2Fcss-color-de-fondo%2F&psig=AOvVaw2Ll5fzi3GRl2e5SfJ8Uu0C&ust=1673656019745000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOiJ-9Wkw_wCFQAAAAAdAAAAABAI);
-  background-repeat: none;
-  background-size: cover;
+  background: rgb(36, 36, 73);
+  background: linear-gradient(90deg, rgb(36, 36, 73) 0%, rgb(28, 181, 0) 100%);
   font-family: "Chivo Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+div {
+  color: white;
+  font-size: 3rem;
+}
+
+.content_all .clock_date .clock_wraper .clock {
+  background-color: #424949;
+  border-radius: 5px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_all .clock_date .clock_wraper .date {
+  background-color: #424949;
+  border-radius: 5px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
